@@ -3,11 +3,13 @@
 *@
 @{
     // Set the title and layout for the page
-    ViewData["Title"] = "Shop";
+    ViewData["Title"] = "Store = View Product";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<!-- Set the model -->
+@model int
 
-<!-- Display the shop landing page -->
-<h2>Welcome to the shop</h2>
-<p>This is the Shop landing page.</p>
-<a asp-action="Details" asp-route-id="7">View Product 7</a>
+<!-- Display Results -->
+<h2> Product Detail</h2>
+<p>You are viewing product with ID: <strong>@Model</strong></p>
+

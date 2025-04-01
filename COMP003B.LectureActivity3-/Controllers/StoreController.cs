@@ -8,7 +8,7 @@ namespace COMP003B.LectureActivity3_.Controllers
         [Route("product/{id:int}")]
         public IActionResult ViewProduct(int id)
         {
-            return View();
+            return View(id);
         }
 
         [HttpGet("product/search")]
