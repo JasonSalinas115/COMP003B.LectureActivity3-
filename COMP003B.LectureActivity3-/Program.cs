@@ -6,6 +6,7 @@
  * 
  */
 namespace COMP003B.LectureActivity3_
+
 {
     public class Program
     {

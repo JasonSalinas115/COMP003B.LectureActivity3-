@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using COMP003B.LectureActivity3-.Models;
+using COMP003B.LectureActivity3_.Models;
 
 namespace COMP003B.LectureActivity3_.Controllers
 {

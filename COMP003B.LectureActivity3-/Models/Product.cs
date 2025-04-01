@@ -1,4 +1,6 @@
-﻿namespace COMP003B.LectureActivity3_.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace COMP003B.LectureActivity3_.Models
 {
     public class Product
     {
@@ -12,7 +14,7 @@
         [Range(0.01, 10000)]
         public decimal Price { get; set; }
 
-        [Requried]
+        [Required]
         public string Category { get; set; }
     }
 }
